@@ -1,0 +1,241 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 991px) {
+
+  .slider_section {
+    min-height: auto;
+  }
+
+  .info_main_row>div:nth-child(1) {
+    margin-bottom: 25px;
+  }
+
+  .info_main_row>div:nth-child(2) {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 767px) {
+
+  .slider_section .carousel-control-prev,
+  .slider_section .carousel-control-next {
+    top: 85.5%;
+  }
+
+  .about_section .img-box {
+    margin-bottom: 45px;
+
+  }
+
+  .contact_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .subscribe-box {
+    margin-bottom: 45px;
+  }
+
+  .info_main_row>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .info_main_row>div:not(:nth-last-child(1)) {
+    margin-bottom: 25px;
+  }
+
+  .info_section .social_box {
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .info_section .info_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+
+  .blog_section .box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .blog_section .box .img-box {
+    width: 100%;
+  }
+
+  .info_section .info_insta .insta_box {
+    flex-direction: column;
+  }
+
+  .info_section .info_insta .insta_box .img-box {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .slider_section .carousel-control-prev,
+  .slider_section .carousel-control-next {
+    top: 88%;
+  }
+
+  .contact_section .form_container {
+    padding: 45px 25px;
+  }
+}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 376px) {
+
+  .slider_section .carousel-control-prev,
+  .slider_section .carousel-control-next {
+    top: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .location-icon {
+    width: 25px;
+  }
+
+  .street-name {
+    font-size: 14px;
+  }
+
+  .heading_container h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .info_main_row {
+    flex-direction: column; /* Coloca os elementos em coluna em telas pequenas */
+  }
+
+  .info_insta,
+  .info_detail,
+  .info_contact,
+  .social_box {
+    text-align: center; /* Centraliza texto em telas pequenas */
+  }
+
+  .social_box {
+    margin-top: 15px; /* Espaço acima da caixa social */
+  }
+}
+@media (max-width: 1100px) {
+  .servico_section .row {
+    flex-wrap: wrap;
+  }
+  .servico_section .box {
+    max-width: 90%; /* Permitir que as caixas ocupem mais espaço em telas pequenas */
+  }
+  .servico_section .box .img-box {
+  }
+  .responsive-span {
+    font-size: 6vw; /* Ajuste de tamanho de texto para telas menores */
+  }
+  
+
+  .servico_section .detail-box {
+    font-size: 16px; /* Ajuste do tamanho da fonte */
+    padding: 15px; /* Ajuste do padding */
+  }
+}
+
+@media (max-width: 576px) {
+  .servico_section .detail-box {
+    font-size: 14px; /* Mais redução de tamanho da fonte em telas muito pequenas */
+  }
+
+  .servico_section .box .detail-box h5 {
+    font-size: 1.2em; /* Ajuste para o título */
+  }
+  
+}
+@media screen and (max-width: 1109px) {
+  header {
+    background-color: #fff;
+    height: 80px;
+  }
+
+  .logo {
+    width: 100px;
+    height:80px;
+  }
+  .icon{
+    width: 50px;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between; /* Alinhamento para os lados */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 0 20px; /* Adiciona espaçamento lateral */
+  }
+
+  .nav-list {
+    display: none; /* Oculta a lista de navegação principal */
+  }
+
+  .login-button {
+    display: none; /* Oculta o botão de login */
+  }
+
+  .mobile-menu-icon {
+    display: block; /* Mostra o ícone do menu */
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .mobile-menu .login-button button {
+    width: 100%;
+  }
+
+  .open {
+    display: block; /* Mostra o menu móvel quando aberto */
+  }
+}
