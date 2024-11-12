@@ -79,8 +79,10 @@ header {
 .logo {
   width: 200px;
   height: 100px;
-  left: 0;
-  z-index: 1000;
+  display: flex;
+  align-items: center;
+  z-index: 10000;
+  margin-top: -10px; /* Ajuste a logo para cima */
 }
 header.rolagem {
   background-color: #fff;
@@ -91,9 +93,8 @@ header.rolagem {
   color: #000; 
 }
 .logo {
-  display: flex;
-  align-items: center;
-  z-index: 10000;
+
+  flex: 0 1 auto; /* Impede que a logo se expanda ou encolha */
 }
 
 
@@ -119,12 +120,14 @@ header.rolagem {
 }
 .nav-bar {
   display: flex;
-  justify-content: space-around;
-  position: relative;
+  justify-content: space-between; /* Distribui os itens da nav-bar */
+  align-items: center; /* Alinha verticalmente no centro */
+  width: 100%; /* Garante que ocupe toda a largura */
  
 }
 .login-button {
-  margin-top: 20px;
+  margin-left: 20px;
+  margin-top: -10px;
 }
 .login-button button {
   border: none;
@@ -133,11 +136,13 @@ header.rolagem {
   background-color: #3a3f58;
   text-transform: uppercase;
   text-shadow: #000 2px 3px 2px;
+  margin-right: 40px; /* Adiciona o espaço desejado à direita */
 }
 .login-button button a {
   text-decoration: none;
   color: #f3eded;
   font-weight: 500;
+  
 }
 .mobile-menu-icon {
   display: none;
@@ -151,6 +156,7 @@ header.rolagem {
 .mobile-menu ul li a {
   color: #000;
 }
+
 
 /*end header section*/
 
